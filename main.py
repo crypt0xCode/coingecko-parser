@@ -23,10 +23,10 @@ def export_csv(file_path, parsed_table):
     result = ''
     try:
         with open(file_path, 'w') as f:
-            writer = csv.writer(f)
+            writer = csv.writer(f, delimiter=';', lineterminator="\n")
             for row in parsed_table:
                 writer.writerow(row)
-        result = "Successfuly export to csv: ./path-to-project/parse.csv."
+        result = f"Successfuly export to csv: {file_path}"
     except:
         exception_msg = "Error while export to csv: check log details."
         logger.exception(exception_msg)
