@@ -1,6 +1,6 @@
 # Coingecko HTML parser
 *English*: HTML Coingecko parser on BS4 + Requests based on Python 3.10.<br>
-*Russian*: HTML парсер Coingecko на BS4 + Requests, основанный на Python 3.10
+*Russian*: HTML парсер Coingecko на BS4 + Requests, основанный на Python 3.10.
 ## Installing/Установка
 1. Clone repository: `git clone https://github.com/crypt0xCode/coingecko-parser`
 2. Optionally uprade python pip: `python -m pip install --upgrade pip`
